@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Glass smelter.",
+	"description": "Kiln but for glass",
+	"itemCapacity": 10,
+	"outputItem": {"item": "glass", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true, 
+   "flameColor": 00bfff,
+	"craftTime": 300,
+	"smeltEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.2,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 20 },
+		{ "item": "graphite", "amount": 10 },
+		{ "item": "silicon", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "kiln",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

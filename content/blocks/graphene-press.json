@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "Graphene Press",
+	"description": "Work as same as graphite press but takes more power and produce graphene slower",
+	"itemCapacity": 10,
+	"outputItem": {"item": "graphene", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 300,
+   "updateEffects": "producesmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "coal", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "titanium", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "multi-press",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

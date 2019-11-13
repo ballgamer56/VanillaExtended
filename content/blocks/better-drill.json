@@ -1,0 +1,25 @@
+{
+	"name": "Better drill",
+	"description": "Low cost drill, required Lubricant oil to run.",
+"liquidCapacity":120,
+	"type": "Drill",
+	"size": 2,
+	"tier": 4,
+	"health": 300,
+	"drillTime": 35,
+	"consumes": {
+		"power": 1.0,
+		"liquid":{
+			"liquid": "lubricant-oil", 
+			"amount": 0.1,
+			"booster": false
+		},
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "graphite", "amount": 20 }
+	],
+	"category": "production",
+	"research": "blast-drill"
+}

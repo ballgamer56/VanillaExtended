@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Gasoline canister",
+	"description": "More refined version of oil.",
+	"hardness": 0,
+   "flammability": 1,
+	"cost": 2.0,
+	"color": "008d10"
+}

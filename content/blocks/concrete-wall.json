@@ -1,0 +1,12 @@
+{
+	"name": "Concrete Wall",
+	"description": "Cheaper than copper yet almost as strong as it",
+	"type": "Wall",
+	"health": 300,
+	"size": 1,
+	"requirements": [
+		{ "item": "concrete", "amount": 10 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}

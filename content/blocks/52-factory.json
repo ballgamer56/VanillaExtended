@@ -1,0 +1,32 @@
+{
+	"name": "B-52 Factory",
+	"description": "Makes American Jet Strategic Bomber, The B-52 stratofrotress.",
+	"type": "UnitFactory",
+	"unitType": "b-52",
+	"size": 5,
+   "maxSpawn": 1,
+	"produceTime": 7200,
+	"consumes": {
+		"power": 60.0,
+		"items": {
+			"items": [
+				{"item": "surge-alloy", "amount": 300},
+				{"item": "nuke", "amount": 25},
+				{"item": "copper", "amount": 500},
+				{"item": "lead", "amount": 500},
+				{"item": "plastanium", "amount": 250},
+				{"item": "glass", "amount": 100},
+				{"item": "titanium", "amount": 750},
+				{"item": "gasoline-canister", "amount": 100}
+			]
+		}
+	},
+	"category": "units",
+	"research": "wraith-factory",
+	"requirements": [
+		{ "item": "reenforced-concrete", "amount": 500 },
+		{ "item": "titanium", "amount": 350 },
+		{ "item": "surge-alloy", "amount": 250 },
+		{ "item": "plastanium", "amount": 100 }
+	]
+}

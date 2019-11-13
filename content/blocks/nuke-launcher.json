@@ -1,0 +1,42 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "Nuke Launcher",
+	"description": "Shoot nukes. That's it and that's all",
+	"health": 250,
+	"size": 3,
+	"itemCapacity": 5,
+	"reload": 1500,
+	"range": 1500,
+	"ammoUseEffect": "shellEjectBig",
+	"inaccuracy": 1,
+	"rotatespeed": 0.05,
+	"ammo": {
+		"nuke": {
+			"type": "ArtilleryBulletType",
+			"lifetime": 600,
+			"speed": 3.0,
+			"status": "burning", 
+			"statusDuration": 1200,
+			"damage": 4500,
+			"bulletWidth": 7,
+			"bulletHeight": 9,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+        "hitEffect": "shootBig2",
+			"ammoMultiplier": 1,
+			"splashDamageRadius": 1000,
+			"splashDamage": 4500,
+			"bulletSprite": "vanilla-extended-nuke-bullet"
+		}
+	},
+	"requirements": [
+		{ "item": "graphene", "amount": 45 },
+		{ "item": "reenforced-concrete", "amount": 50 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "plastanium", "amount": 100 },
+		{ "item": "surge-alloy", "amount": 100 },
+	],
+	"category": "turret",
+	"research": "nuke-craft"
+}

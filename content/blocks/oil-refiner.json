@@ -1,0 +1,30 @@
+{
+	"type": "GenericSmelter",
+	"name": "Oil refiner",
+	"description": "Refine oil into Gasoline and Lubricant oil for your machine needs",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "gasoline-canister", "amount": 1},
+   "outputLiquid": {"liquid": "lubricant-oil", "amount": 25.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.7
+		"liquid": {
+			"liquid": "oil",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 50 },
+		{ "item": "graphite", "amount": 40 },
+		{ "item": "silicon", "amount": 60 },
+		{ "item": "copper", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "oil-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

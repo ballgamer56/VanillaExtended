@@ -1,0 +1,12 @@
+{
+	"name": "Reinforced concrete wall large",
+	"description": "Wall made out of reinforced concrete, twice as strong compare to non-reinforced variant",
+	"type": "Wall",
+	"health": 2400,
+	"size": 2,
+	"requirements": [
+		{ "item": "reenforced-concrete", "amount": 40 }
+	],
+	"category": "defense",
+	"research": "re-concrete-wall"
+}

@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Glass",
+	"description": "Regular glass. very fragile",
+	"hardness": 1,
+	"cost": 0.1,
+	"color": "e1fefc"
+}

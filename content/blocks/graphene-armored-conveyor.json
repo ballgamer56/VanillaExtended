@@ -1,0 +1,14 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Graphene armored conveyor",
+	"description": "Better armored conveyor",
+   "health": 500
+	"requirements": [
+		{"item": "titanium", "amount": 1},
+		{"item": "copper", "amount": 3},
+		{"item": "graphene", "amount": 3},
+	],
+	"category": "distribution",
+	"speed": 0.15,
+	"research": "armored-conveyor"
+}

@@ -1,0 +1,12 @@
+{
+	"name": "Glass Wall",
+	"description": "Totally useless as a defense system! now with larger size!",
+	"type": "Wall",
+	"health": 10,
+	"size": 2,
+	"requirements": [
+		{ "item": "glass", "amount": 25 }
+	],
+	"category": "defense",
+	"research": "glass-wall-s"
+}

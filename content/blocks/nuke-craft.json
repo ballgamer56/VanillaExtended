@@ -1,0 +1,34 @@
+{
+	"type": "GenericCrafter",
+	"name": "Nuclear bomb assembler",
+	"description": "Use for assembling Uranium and other materials into a nuke",
+	"outputItem": {"item": "nuke", "amount": 1},
+	"size": 3,
+	"itemCapacity": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 2400,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{ "item": "uranium", "amount": 10 },
+				{ "item": "silicon", "amount": 100 },
+				{ "item": "titanium", "amount": 200 },
+				{ "item": "surge-alloy", "amount": 100 },
+				{ "item": "graphene", "amount": 100 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "concrete", "amount": 100 },
+		{ "item": "reenforced-concrete", "amount": 100 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "titanium", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "U-reactor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,25 @@
+{
+	"type": "GenericCrafter",
+	"name": "H2Coal",
+	"description": "Self contained water-to-coal generator. made by combining Water extractor, cultivator, spore press, coal extractor and some careful conduits and conveyors wiring. packed neatly in 4x4 space",
+	"itemCapacity": 10,
+	"outputItem": {"item": "coal", "amount": 1},
+	"size": 4,
+	"hasPower": true,
+	"craftTime": 250,
+   " updateEffects": "producesmoke",
+	"consumes": {
+		"power": 2.9
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 35 },
+		{ "item": "lead", "amount": 110 },
+		{ "item": "graphite", "amount": 65 },
+		{ "item": "silicon", "amount": 40 },
+		{ "item": "titanium", "amount": 20 }
+	],
+	"category": "production",
+	"research": "oil-extractor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
