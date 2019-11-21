@@ -1,0 +1,33 @@
+{
+	"type": "GenericCrafter",
+	"name": "Concrete mixer.",
+	"description": "create concrete using only sand and water!",
+	"itemCapacity": 10,
+	"outputItem": {"item": "concrete", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 120,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.5,
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 5 }
+			]
+		}, 
+     "liquid": {
+          "liquid": "water", 
+          "amount": 0.25
+      }
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 25 },
+		{ "item": "lead", "amount": 20 },
+		{ "item": "graphite", "amount": 5 }
+	],
+	"category": "crafting",
+	"research": "pulverizer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

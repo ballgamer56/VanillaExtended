@@ -1,0 +1,44 @@
+{
+	"type": "ArtilleryTurret",
+	"name": "V1 Flying bomb Launcher",
+	"description": "Platform for launching V1 flying bomb.",
+	"health": 250,
+	"size": 2,
+	"itemCapacity": 5,
+	"reload": 175,
+	"range": 2500,
+	"inaccuracy": 0,
+	"rotatespeed": 1.5,
+   "ammoUseEffect": "none",
+	"ammo": {
+		"v1-item": {
+			"type": "MissileBulletType",
+			"lifetime": 600,
+			"speed": 7.5,
+			"status": "burning", 
+			"statusDuration": 1200,
+			"damage": 100,
+			"bulletWidth": 14,
+			"bulletHeight": 18,
+         "shootEffect": "none",
+			"smokeEffect": "none", 
+			"ammoMultiplier": 1,
+			"splashDamageRadius": 100,
+			"splashDamage": 250,
+        "homingRange": 25,
+        "homingPower": 1,
+        "collidesAir": true, 
+        "collides": true, 
+        "keepVelocity": true,
+			"bulletSprite": "vanilla-extended-v1"
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 45 },
+		{ "item": "reenforced-concrete", "amount": 50 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 100 }
+	],
+	"category": "turret",
+	"research": "v1-assembler"
+}

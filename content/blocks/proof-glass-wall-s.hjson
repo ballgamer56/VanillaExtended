@@ -1,0 +1,13 @@
+{
+	"name": "Small bullet-proof glass wall",
+	"description": "Eventhough, the name suggest that it's bullet proof, it's still glass. but it's better than just regular glass wall, right?",
+	"type": "Wall",
+	"health": 50,
+	"size": 1,
+	"requirements": [
+		{ "item": "glass", "amount": 5 },
+		{ "item": "lead", "amount": 1 }
+	],
+	"category": "defense",
+	"research": "glass-wall-s"
+}

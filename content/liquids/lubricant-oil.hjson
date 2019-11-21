@@ -1,0 +1,7 @@
+{
+	"name": "Lubricant oil",
+	"description": "Reduce friction in moving parts",
+	"temperature": 0.1,
+    "viscosity": 0.8,
+    "color": "d3bc00"
+}

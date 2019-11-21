@@ -1,0 +1,14 @@
+{
+	"type":"SolarGenerator",
+	"name": "Wind turbine",
+	"description": "Generate power using flowing wind current that flow through 8 blades to spin it, which then spin the dynamo inside",
+	"size": 1,
+	"powerProduction": 0.2,
+	"requirements": [
+		{ "item": "copper", "amount": 5 },
+		{ "item": "lead", "amount": 5 },
+		{ "item": "graphene", "amount": 10 }
+	],
+	"category": "power",
+	"research": "power-node"
+}

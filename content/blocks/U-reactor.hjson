@@ -1,0 +1,39 @@
+{
+	"type": "NuclearReactor",
+	"name": "Uranium reactor",
+	"description": "Reactor powered by Uranium-235. cheaper to build (since you don't need the ore itself to build like Thorium reactor) and produce more energy than impact reactor, and only use water instead of cryofluid",
+	"size": 5,
+	"health": 5000,
+   "itemCapacity": 5,
+   "liquidCapacity": 300,
+   "heating": 0.05,
+   "smokeThreshold": 0.25,
+   "flashThreshold": 0.40
+   "explosionRadius": 150,
+   "explosionDamage": 4500,
+   "minItemEfficiency": 0.2,
+   "randomlyExplode": false,
+	"itemDuration": 36000,
+	"powerProduction": 200,
+   "coolantPower": 1,
+	"consumes": {
+	"items": {
+			"items": [
+				{ "item": "uranium", "amount": 1 }
+			]
+		},
+   "liquid": {
+       "liquid": "water", "amount": 3.3}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 100 },
+		{ "item": "copper", "amount": 500 },
+		{ "item": "graphite", "amount": 250 },
+		{ "item": "silicon", "amount": 100 },
+		{ "item": "glass", "amount": 25 },
+		{ "item": "lead", "amount": 250 },
+		{ "item": "reenforced-concrete", "amount": 250 }
+	],
+	"category": "power",
+	"research": "uranium-enricher"
+}

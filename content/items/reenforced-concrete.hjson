@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Reinforced concrete",
+	"description": "Much stronger concrete, still not the best for armor but it can now handle more weight which mean you can build larger structure",
+	"hardness": 3,
+	"cost": 1,
+	"color": "e1fefc"
+}

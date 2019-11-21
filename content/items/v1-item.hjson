@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "V1 Flying bomb",
+	"description": "Missile before Missile",
+	"hardness": 0.2,
+   "explosiveness": 1.8,
+	"cost": 2.0,
+	"color": "cccccc"
+}

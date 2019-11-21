@@ -1,0 +1,22 @@
+{
+	"type": "GenericCrafter",
+	"name": "Sand drill",
+	"description": "drill sand from underground anywhere! \n*efficiency will not increase if place on sand",
+	"itemCapacity": 10,
+	"outputItem": {"item": "sand", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"craftTime": 100,
+   " updateEffects": "producesmoke",
+	"consumes": {
+		"power": 0.1
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 30 },
+		{ "item": "graphite", "amount": 20 }
+	],
+	"category": "production",
+	"research": "mechanical-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

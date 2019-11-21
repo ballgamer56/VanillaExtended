@@ -1,0 +1,32 @@
+{
+	"type": "GenericCrafter",
+	"name": "N.P.E - Ti",
+	"description": "Nuclear Properties Editor or N.P.E. use for changing other materials or resources into the other material or resources by combining and transferring their electrons, protons and neutrons. This one is for creating Titanium",
+	"itemCapacity": 10,
+	"outputItem": {"item": "titanium", "amount": 1},
+	"size": 7,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 1200,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 7.5,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 4},
+            { "item": "lead", "amount": 2 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "reenforced-concrete", "amount": 250 },
+		{ "item": "copper", "amount": 250 },
+		{ "item": "lead", "amount": 200 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "silicon", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "U-reactor",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

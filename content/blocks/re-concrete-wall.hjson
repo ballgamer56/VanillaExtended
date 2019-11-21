@@ -1,0 +1,12 @@
+{
+	"name": "Reinforced concrete Wall",
+	"description": "Cheaper than copper still but now almost 2 times stronger than copper",
+	"type": "Wall",
+	"health": 600,
+	"size": 1,
+	"requirements": [
+		{ "item": "reenforced-concrete", "amount": 10 }
+	],
+	"category": "defense",
+	"research": "concrete-wall"
+}

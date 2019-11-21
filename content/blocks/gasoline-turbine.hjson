@@ -1,0 +1,28 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Gasoline Turbine",
+	"description": "Much more efficient gasoline-powered generator",
+	"size": 2,
+   "itemCapacity": 70
+	"hasItems": true, 
+   "minItemEfficiency": 0.2,
+   "randomlyExplode": false,
+	"itemDuration": 600,
+	"powerProduction": 15,
+	"consumes": {
+	"items": {
+			"items": [
+				{ "item": "gasoline-canister", "amount": 7 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 50 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "graphite", "amount": 75 },
+		{ "item": "silicon", "amount": 75 }
+	],
+	"category": "power",
+	"research": "oil-powered-generator"
+}

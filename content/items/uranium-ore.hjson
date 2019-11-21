@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Uranium ore",
+	"description": "Unusable uranium. Need to be refine and enrich.",
+	"hardness": 4,
+   "radioactivity": 0.2,
+	"cost": 5.0,
+	"color": "777777"
+}

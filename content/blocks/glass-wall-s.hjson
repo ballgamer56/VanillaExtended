@@ -1,0 +1,12 @@
+{
+	"name": "Small glass wall",
+	"description": "Totally useless as a defense system!",
+	"type": "Wall",
+	"health": 3,
+	"size": 1,
+	"requirements": [
+		{ "item": "glass", "amount": 5 }
+	],
+	"category": "defense",
+	"research": "glass-smelter"
+}

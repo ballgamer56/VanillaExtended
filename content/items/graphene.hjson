@@ -1,0 +1,8 @@
+{
+	"type": "material",
+	"name": "Graphene",
+	"description": "As strong as diamond yet as light as feather.",
+	"hardness": 10,
+	"cost": 5.0,
+	"color": "ffffff"
+}

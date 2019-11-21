@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "V1 flying bomb assembler",
+	"description": "Use for assembling blast compound and some copper into V1 Flying bomb",
+	"outputItem": {"item": "v1-item", "amount": 1},
+	"size": 2,
+	"itemCapacity": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 600,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "blast-compound", "amount": 10 },
+				{ "item": "copper", "amount": 50 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "concrete", "amount": 100 },
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "scatter",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

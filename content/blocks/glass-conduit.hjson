@@ -1,0 +1,11 @@
+{
+	"type": "Conduit",
+	"name": "Glass conduit",
+	"description": "cheaper and easier to craft conduit. very fragile, handle with care", 
+   "health": 20,
+	"requirements": [
+		{"item": "glass", "amount": 1},
+	],
+	"category": "liquid",
+	"research": "conduit"
+}

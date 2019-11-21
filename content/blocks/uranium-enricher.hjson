@@ -1,0 +1,30 @@
+{
+	"type": "GenericCrafter",
+	"name": "U.R.E.",
+	"description": "Uranium Refiner and Enricher. use for refining and enriching uranium into it's power producable stage, Uranium-235",
+	"itemCapacity": 200,
+	"outputItem": {"item": "uranium", "amount": 1},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 1200,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 5.0,
+		"items": {
+			"items": [
+				{ "item": "uranium-ore", "amount": 100 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 100 },
+		{ "item": "lead", "amount": 100 },
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "titanium", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "blast-mixer",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
