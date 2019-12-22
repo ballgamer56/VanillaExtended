@@ -8,5 +8,5 @@
 		{ "item": "graphene", "amount": 10 }
 	],
 	"category": "defense",
-	"research": "copper-wall-large"
+	"research": "graphene-wall-s"
 }

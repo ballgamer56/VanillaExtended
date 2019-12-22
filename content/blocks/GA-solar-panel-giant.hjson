@@ -1,0 +1,16 @@
+{
+	"type":"SolarGenerator",
+	"name": "Giantic Graphene-armored solar panel",
+	"description": "A significantly more efficient version of the armored solar panel",
+	"size": 3,
+	"health": 36000
+	"powerProduction": 0.9,
+	"requirements": [
+		{ "item": "lead", "amount": 100 },
+		{ "item": "graphite", "amount": 145 },
+		{ "item": "phase-fabric", "amount": 15 },
+		{ "item": "graphene", "amount": 27 }
+	],
+	"category": "power",
+	"research": "GA-solar-panel-large"
+}

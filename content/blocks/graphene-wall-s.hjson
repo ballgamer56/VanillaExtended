@@ -1,0 +1,12 @@
+{
+	"name": "Small Graphene Wall",
+	"description": "A wall made of Graphene. Now come in 1x1 size!",
+	"type": "Wall",
+	"health": 3000,
+	"size": 1,
+	"requirements": [
+		{ "item": "graphene", "amount": 3 }
+	],
+	"category": "defense",
+	"research": "copper-wall-large"
+}

@@ -1,0 +1,15 @@
+{
+	"type":"SolarGenerator",
+	"name": "Large Graphene-armored solar panel",
+	"description": "4 armored solar panel strap together",
+	"size": 2,
+	"health": 12000
+	"powerProduction": 0.24,
+	"requirements": [
+		{ "item": "lead", "amount": 40 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "graphene", "amount": 12 }
+	],
+	"category": "power",
+	"research": "GA-solar-panel"
+}
