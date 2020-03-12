@@ -1,0 +1,23 @@
+{
+	"type": "GenericCrafter",
+	"name": "Uranium drill",
+	"description": "drill Uranium from deep underground anywhere! \n*efficiency will not increase if place on Uranium ore",
+	"itemCapacity": 10,
+	"outputItem": {"item": "uranium-ore", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"craftTime": 600,
+   " updateEffects": "producesmoke",
+	"consumes": {
+		"power": 0.5
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 30 },
+		{ "item": "graphite", "amount": 20 },
+		{ "item": "titanium", "amount": 10 }
+	],
+	"category": "production",
+	"research": "laser-drill",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}
