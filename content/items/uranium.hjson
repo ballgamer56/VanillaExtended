@@ -1,5 +1,5 @@
 {
-	"type": "resource",
+	"type": "material",
 	"name": "Uranium",
 	"description": "More risky Thorium, Produce more Energy but harder to get a hold of.",
 	"hardness": 3,
