@@ -1,0 +1,33 @@
+name: Mountainside uranium deposite
+description: Uranium can be found here
+loadout: basicFoundation
+startingItems: [
+  copper/200
+  lead/300
+  concrete/200
+]
+launchPeriod: 15
+requirements: [
+  {
+    type: ZoneWave
+    zone: overgrowth
+    wave: 15
+  }
+  {
+    type: Unlock
+    block: concrete-wall
+  }
+  {
+    type: Unlock
+    block: concrete-mixer
+  }
+]
+resources: [
+  copper
+  lead
+  titanium
+  thorium
+  coal
+  sand
+  uranium
+]
