@@ -1,5 +1,6 @@
 name: Mountainside uranium deposite
 description: Uranium can be found here
+loadout: basicFoundation
 startingItems: [
   copper/100
   lead/100
