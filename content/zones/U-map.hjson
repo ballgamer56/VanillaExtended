@@ -1,11 +1,11 @@
 name: Mountainside uranium deposite
 description: Uranium can be found here
-loadout: basicFoundation
 startingItems: [
-  copper/200
-  lead/300
-  concrete/200
+  copper/100
+  lead/100
+  concrete/100
 ]
+conditionWave: 45
 launchPeriod: 15
 requirements: [
   {
