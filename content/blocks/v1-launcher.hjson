@@ -30,7 +30,7 @@
         "collidesAir": true, 
         "collides": true, 
         "keepVelocity": true,
-			"bulletSprite": "vanilla-extended-v1"
+			"bulletSprite": "[#25f12f]vanilla-extended[]-v1"
 		}
 	},
 	"requirements": [
