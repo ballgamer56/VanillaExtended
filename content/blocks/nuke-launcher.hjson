@@ -1,17 +1,18 @@
 {
-	"type": "ArtilleryTurret",
+	"type": "ItemTurret",
 	"name": "Nuke Launcher",
 	"description": "Shoot nukes. That's it and that's all",
 	"health": 250,
 	"size": 3,
 	"itemCapacity": 5,
-	"reload": 1500,
+	"reloadTime": 1500,
 	"range": 1500,
-	"ammoUseEffect": "shellEjectBig",
+	"shootSound" : "nuke",
+	"ammoUseEffect": "casing4",
 	"inaccuracy": 1,
-	"rotatespeed": 0.05,
-	"ammo": {
-		"nuke": {
+	"rotateSpeed": 0.05,
+	"ammoTypes": {
+		"[#25f12f]vanilla-extended[]-nuke": {
 			"type": "ArtilleryBulletType",
 			"lifetime": 600,
 			"speed": 3.0,

@@ -1,17 +1,18 @@
 {
-	"type": "ArtilleryTurret",
+	"type": "ItemTurret",
 	"name": "V1 Flying bomb Launcher",
 	"description": "Platform for launching V1 flying bomb.",
 	"health": 250,
 	"size": 2,
 	"itemCapacity": 5,
-	"reload": 175,
+	"reloadTime": 175,
 	"range": 2500,
+	"shootSound" : "v1",
 	"inaccuracy": 0,
-	"rotatespeed": 1.5,
+	"rotateSpeed": 1.5,
    "ammoUseEffect": "none",
-	"ammo": {
-		"v1-item": {
+	"ammoTypes": {
+		"[#25f12f]vanilla-extended[]-v1-item": {
 			"type": "MissileBulletType",
 			"lifetime": 600,
 			"speed": 7.5,
@@ -20,7 +21,7 @@
 			"damage": 100,
 			"bulletWidth": 14,
 			"bulletHeight": 18,
-         "shootEffect": "none",
+            "shootEffect": "none",
 			"smokeEffect": "none", 
 			"ammoMultiplier": 1,
 			"splashDamageRadius": 100,
