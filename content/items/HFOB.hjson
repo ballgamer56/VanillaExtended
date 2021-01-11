@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Bottle of Heavy fuel oil",
+	"description": "Bottle full of Heavy fuel oil. can be craft into other stuff",
+	"hardness": 0,
+	"explosiveness": 0,
+    "flammability": 0.9,
+	"cost": 2.0,
+	"color": "573832"
+}

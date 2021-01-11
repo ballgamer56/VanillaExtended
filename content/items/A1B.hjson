@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Bottle of Aviation fuel",
+	"description": "Bottle full of Aviation fuel. can be craft into other stuff",
+	"hardness": 0,
+	"explosiveness": 3,
+    "flammability": 6,
+	"cost": 2.0,
+	"color": "d6e5ff"
+}

@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Anti-Air rocket",
+	"description": "Great for taking down flying units",
+	"hardness": 0.2,
+   "explosiveness": 2,
+	"cost": 2.0,
+	"color": "cccccc"
+}

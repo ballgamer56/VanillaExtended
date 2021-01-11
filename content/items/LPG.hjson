@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Tank of LPG",
+	"description": "Can be use as feul or ammo",
+	"hardness": 0,
+	"explosiveness": 2.5,
+    "flammability": 1,
+	"cost": 2.0,
+	"color": "008d10"
+}

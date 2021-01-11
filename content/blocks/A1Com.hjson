@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Aviation fuel Mixer",
+	"description": "Mix Diesel and Kerosene together to create Aviation fuel",
+	"itemCapacity": 10,
+	"outputItem": {"item": "A1B", "amount": 2},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 300,
+   "updateEffects": "producesmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "DieselB", "amount": 1 },
+				{ "item": "KeroB", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+	],
+	"category": "crafting",
+	"research": "KeroBr",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

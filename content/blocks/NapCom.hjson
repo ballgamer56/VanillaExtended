@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Naphtha Mixer",
+	"description": "Mix Heavy fuel oil and Gas oil together to create Naphtha",
+	"itemCapacity": 10,
+	"outputItem": {"item": "NapB", "amount": 2},
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 300,
+   "updateEffects": "producesmoke",
+	"consumes": {
+		"power": 0.7,
+		"items": {
+			"items": [
+				{ "item": "HFOB", "amount": 1 },
+				{ "item": "GOB", "amount": 1 }
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "graphite", "amount": 50 },
+		{ "item": "lead", "amount": 80 },
+	],
+	"category": "crafting",
+	"research": "GOBr",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

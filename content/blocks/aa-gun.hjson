@@ -1,0 +1,42 @@
+{
+	"type": "ItemTurret",
+	"name": "Concrete pillbox (Air)",
+	"description": "Cheap to construct defensive anti-air turret",
+	"health": 2000,
+	"size": 2,
+	"shots": 2,
+	"alternate": "true",
+	"itemCapacity": 25,
+	"reloadTime": 0.1,
+	"range": 150,
+	"recoil": 0,
+	"shootSound" : "aa",
+	"spread": 5,
+	"inaccuracy": 2.5,
+	"rotateSpeed": 5,
+	"targetGround": "false",
+	"targetAir": "True",
+   "ammoUseEffect": "none",
+	"ammoTypes": {
+		"lead": {
+			"type": "BasicBulletType",
+			"lifetime": 60,
+			"speed": 7.5,
+			"damage": 45,
+            "shootEffect": "casing1",
+			"ammoMultiplier": 25,
+        "homingRange": 0,
+        "homingPower": 0,
+        "collidesAir": true, 
+        "collidesGround": false,
+        "collides": true, 
+        "keepVelocity": true,
+		}
+	},
+	"requirements": [
+		{ "item": "concrete", "amount": 5 },
+		{ "item": "copper", "amount": 10}
+	],
+	"category": "turret",
+	"research": "duo"
+}

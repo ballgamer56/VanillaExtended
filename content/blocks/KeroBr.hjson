@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Kerosene bottling",
+	"description": "Put Kerosene into bottle for faster transport, use and crafting",
+	"outputItem": {"item": "KeroB", "amount": 1},
+	"size": 1,
+	"liquidCapacity": 5,
+	"itemCapacity": 10,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.7
+		"liquid": {
+			"liquid": "Kero",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 10 },
+		{ "item": "copper", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "OR4",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Bottle of Kerosene",
+	"description": "Bottle full of Kerosene. can be craft into other stuff",
+	"hardness": 0,
+	"explosiveness": 4,
+    "flammability": 5,
+	"cost": 2.0,
+	"color": "1f80ff"
+}

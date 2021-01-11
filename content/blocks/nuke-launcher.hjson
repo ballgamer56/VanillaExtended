@@ -11,6 +11,7 @@
 	"ammoUseEffect": "casing4",
 	"inaccuracy": 1,
 	"rotateSpeed": 0.05,
+	"targetAir": "false",
 	"ammoTypes": {
 		"[#25f12f]vanilla-extended[]-nuke": {
 			"type": "ArtilleryBulletType",
@@ -19,15 +20,15 @@
 			"status": "burning", 
 			"statusDuration": 1200,
 			"damage": 4500,
-			"bulletWidth": 7,
-			"bulletHeight": 9,
+			"width": 7,
+			"height": 9,
 			"shootEffect": "shootBig",
 			"smokeEffect": "shootBigSmoke",
         "hitEffect": "shootBig2",
 			"ammoMultiplier": 1,
 			"splashDamageRadius": 1000,
 			"splashDamage": 4500,
-			"bulletSprite": "[#25f12f]vanilla-extended[]-nuke-bullet"
+			"sprite": "[#25f12f]vanilla-extended[]-nuke-bullet"
 		}
 	},
 	"requirements": [

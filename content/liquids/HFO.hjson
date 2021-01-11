@@ -1,0 +1,8 @@
+{
+	"name": "Heavy fuel oil",
+	"description": "Combine with Gas oil to make Naptha. can be process further into lubircant oil",
+	"flammability": 0.9,
+	"explosiveness": 0,
+    "viscosity": 0.8,
+    "color": "573832"
+}

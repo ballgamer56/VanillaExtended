@@ -1,0 +1,8 @@
+{
+	"name": "Gasoline",
+	"description": "Combine with Kerosene to make Aviation fuel. Can be made into gasoline",
+	"flammability": 4.0,
+	"explosiveness": 1.2,
+    "viscosity": 0.5,
+    "color": "ff29d1"
+}

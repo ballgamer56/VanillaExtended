@@ -1,0 +1,38 @@
+{
+	"type": "ItemTurret",
+	"name": "Concrete pillbox (Ground)",
+	"description": "Cheap to construct defensive turret",
+	"health": 2000,
+	"size": 2,
+	"itemCapacity": 25,
+	"reloadTime": 0.1,
+	"range": 150,
+	"recoil": 0,
+	"shootSound" : "gun",
+	"spread": 15,
+	"inaccuracy": 10,
+	"rotateSpeed": 5,
+	"targetAir": "false",
+   "ammoUseEffect": "none",
+	"ammoTypes": {
+		"lead": {
+			"type": "BasicBulletType",
+			"lifetime": 60,
+			"speed": 7.5,
+			"damage": 45,
+            "shootEffect": "casing1",
+			"ammoMultiplier": 25,
+        "homingRange": 0,
+        "homingPower": 0,
+        "collidesAir": false, 
+        "collides": true, 
+        "keepVelocity": true,
+		}
+	},
+	"requirements": [
+		{ "item": "concrete", "amount": 5 },
+		{ "item": "copper", "amount": 10}
+	],
+	"category": "turret",
+	"research": "duo"
+}

@@ -1,6 +1,5 @@
 {
-	"shootSound": "swings",
-	"ammo": {
+	"ammoTypes": {
 		"copper": "standardCopper",
 		"graphite": "standardDense",
 		"pyratite": "standardIncendiary",

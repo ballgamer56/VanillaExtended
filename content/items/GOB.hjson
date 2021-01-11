@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Bottle of Gas oil",
+	"description": "Bottle full of Gas oil. can be craft into other stuff",
+	"hardness": 0,
+	"explosiveness": 1.2,
+    "flammability": 3.6,
+	"cost": 2.0,
+	"color": "ff401f"
+}

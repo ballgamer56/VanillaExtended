@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Bottle of Diesel",
+	"description": "Bottle full of Diesel. can be craft into other stuff",
+	"hardness": 0,
+	"explosiveness": 1.2,
+    "flammability": 4,
+	"cost": 2.0,
+	"color": "9cff24"
+}

@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter",
+	"name": "Better Plastanium compressor",
+	"description": "combine Naphtha and Titanium together into Plastanium,
+	"liquidCapacity": 50,
+	"outputItem": {"item": "plastanium", "amount": 1},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"hasItems": true,
+	"craftTime": 60,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.7
+		"liquid": {
+			"liquid": "Nap",
+			"amount": 0.1
+			}
+		"items": {
+			"items": [
+				{ "item": "titanium", "amount": 1 }
+			]
+		}
+		
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 115 },
+		{ "item": "graphite", "amount": 60 },
+		{ "item": "titanium", "amount": 80 },
+		{ "item": "silicon", "amount": 80 }
+	],
+	"category": "crafting",
+	"research": "OR5",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,31 @@
+{
+	"type": "GenericSmelter",
+	"name": "Oil refiner stage 3",
+	"description": "Refine oil into Diesel and leave left over to be process further in stage 4",
+	"liquidCapacity": 50,
+	"outputItem": {"item": "stage3", "amount": 1},
+   "outputLiquid": {"liquid": "Diesel", "amount": 10.0},
+	"size": 2,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.7
+		"items": {
+			"items": [ 
+				{ "item": "stage2", "amount": 1}
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 10 },
+		{ "item": "graphite", "amount": 8 },
+		{ "item": "silicon", "amount": 12 },
+		{ "item": "copper", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "OR2",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

@@ -1,0 +1,10 @@
+{
+	"type": "resource",
+	"name": "Bottle of Naphtha",
+	"description": "Bottle full of Naphtha. can be craft into other stuff",
+	"hardness": 0,
+	"explosiveness": 4,
+    "flammability": 5,
+	"cost": 2.0,
+	"color": "f6ff8f"
+}

@@ -1,0 +1,28 @@
+{
+	"type": "GenericSmelter",
+	"name": "Gasoline canister factory",
+	"description": "Put Gasoline into canister for use",
+	"outputItem": {"item": "gasoline-canister", "amount": 1},
+	"size": 1,
+	"liquidCapacity": 5,
+	"itemCapacity": 10,
+	"hasPower": true,
+	"hasLiquids": true,
+	"craftTime": 100,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.7
+		"liquid": {
+			"liquid": "Gas",
+			"amount": 1.0
+		}
+	},
+	"requirements": [
+		{ "item": "lead", "amount": 10 },
+		{ "item": "copper", "amount": 10 }
+	],
+	"category": "crafting",
+	"research": "OR6",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

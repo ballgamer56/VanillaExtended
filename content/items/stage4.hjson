@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Stage 4 Left over",
+	"description": "Left over from stage 4 of oil refinery. Can be refine further",
+	"hardness": 0,
+   "flammability": 1,
+	"cost": 2.0,
+	"color": "333333"
+}

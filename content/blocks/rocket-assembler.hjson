@@ -1,0 +1,31 @@
+{
+	"type": "GenericCrafter",
+	"name": "Anti-air rocket assembler",
+	"description": "Use for assembling blast compound, some copper and Kerosene into AA Rocket",
+	"outputItem": {"item": "rocket", "amount": 1},
+	"size": 2,
+	"itemCapacity": 200,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 600,
+	"craftEffect": "smeltsmoke",
+	"consumes": {
+		"power": 1.0,
+		"items": {
+			"items": [
+				{ "item": "blast-compound", "amount": 10 },
+				{ "item": "copper", "amount": 20 },
+				{ "item": "KeroB", "amount": 5 },
+			]
+		}
+	},
+	"requirements": [
+		{ "item": "concrete", "amount": 100 },
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 50 }
+	],
+	"category": "crafting",
+	"research": "v1-assembler",
+	"idleSound": "respawning",
+	"idleSoundVolume": 0.5
+}

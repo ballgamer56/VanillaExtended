@@ -1,0 +1,8 @@
+{
+	"name": "Naptha",
+	"description": "Combination of Gas oil and Heavy fuel oil. combine with titanium to make Plastanium",
+	"flammability": 2.0,
+	"explosiveness": 1.0,
+    "viscosity": 0.9,
+    "color": "f6ff8f"
+}

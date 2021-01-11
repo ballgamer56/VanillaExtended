@@ -1,0 +1,8 @@
+{
+	"name": "Kerosene",
+	"description": "Combine with Diesel to make Aviation fuel. Use as rocket fuel",
+	"flammability": 5.0,
+	"explosiveness": 4.0,
+    "viscosity": 0.7,
+    "color": "1f80ff"
+}
