@@ -1,0 +1,52 @@
+type: UnitFactory
+name: unit constructor
+description: Produces t2 units.
+size: 2
+consumes: {
+  power: 1.5
+}
+plans: [
+  {
+    unit: mace
+    time: 600
+    requirements: [
+      silicon/55
+      metaglass/45
+    ]
+  }
+  {
+    unit: pulsar
+    time: 720
+    requirements: [
+      silicon/120
+      lead/90
+      titanium/75
+    ]
+  }
+  {
+    unit: atrax
+    time: 850
+    requirements: [
+      silicon/135
+      lead/65
+    ]
+  }
+  {
+    unit: poly
+    time: 1000
+    requirements: [
+      silicon/50
+      lead/10
+      graphite/40
+    ]
+  }
+]
+requirements: [
+  copper/190
+  lead/130
+  silicon/290
+  graphite/95
+  metaglass/55
+]
+research: flare
+category: units
