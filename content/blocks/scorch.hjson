@@ -1,0 +1,7 @@
+{
+	"ammoTypes": {
+		"coal": "basicFlame",
+		"pyratite": "pyraFlame",
+		"LPG": "pyraFlame"
+	}
+}

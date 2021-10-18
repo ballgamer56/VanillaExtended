@@ -1,6 +1,6 @@
 {
 	"name": "Diesel",
-	"description": "Combine with Kerosene to make Aviation fuel. Can be made into gasoline",
+	"description": "Combine with Kerosene to make Aviation fuel. Can be use in Diesel engine or generator. can't be use to replace gasoline",
 	"flammability": 4.0,
 	"explosiveness": 1.2,
     "viscosity": 0.5,

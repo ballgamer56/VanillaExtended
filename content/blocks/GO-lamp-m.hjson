@@ -1,0 +1,26 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Gas Oil Lamp",
+	"description": "Light source that use gas oil instead of electricity",
+	"size": 2,
+   "itemCapacity": 5
+	"hasItems": true, 
+   "minItemEfficiency": 0.2,
+   "randomlyExplode": false,
+	"itemDuration": 3600,
+	"powerProduction": 0.0001,
+	"consumes": {
+	"items": {
+			"items": [
+				{ "item": "GOB", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 8 },
+		{ "item": "graphite", "amount": 4 }
+	],
+	"category": "effect",
+	"research": "illuminator"
+}

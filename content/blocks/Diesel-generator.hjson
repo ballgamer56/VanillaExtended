@@ -1,0 +1,28 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Diesel generator",
+	"description": "More heavvy duty generator",
+	"size": 3,
+   "itemCapacity": 70
+	"hasItems": true, 
+   "minItemEfficiency": 0.2,
+   "randomlyExplode": false,
+	"itemDuration": 1000,
+	"powerProduction": 30,
+	"consumes": {
+	"items": {
+			"items": [
+				{ "item": "DieselB", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "titanium", "amount": 75 },
+		{ "item": "copper", "amount": 75 },
+		{ "item": "graphite", "amount": 100 },
+		{ "item": "silicon", "amount": 100 }
+	],
+	"category": "power",
+	"research": "gasoline-turbine"
+}

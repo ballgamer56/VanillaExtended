@@ -4,7 +4,7 @@
 	"description": "Put Heavy fuel oil into bottle for faster transport, use and crafting",
 	"outputItem": {"item": "HFOB", "amount": 1},
 	"size": 1,
-	"liquidCapacity": 5,
+	"liquidCapacity": 60,
 	"itemCapacity": 10,
 	"hasPower": true,
 	"hasLiquids": true,

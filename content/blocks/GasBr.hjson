@@ -4,7 +4,7 @@
 	"description": "Put Gasoline into canister for use",
 	"outputItem": {"item": "gasoline-canister", "amount": 1},
 	"size": 1,
-	"liquidCapacity": 5,
+	"liquidCapacity": 60,
 	"itemCapacity": 10,
 	"hasPower": true,
 	"hasLiquids": true,

@@ -1,0 +1,26 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Large Gas Oil Lamp",
+	"description": "Larger gas oil lamp, produce more light, use more fuel, last shorter",
+	"size": 3,
+   "itemCapacity": 10
+	"hasItems": true, 
+   "minItemEfficiency": 0.2,
+   "randomlyExplode": false,
+	"itemDuration": 900,
+	"powerProduction": 0.0001,
+	"consumes": {
+	"items": {
+			"items": [
+				{ "item": "GOB", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 18 },
+		{ "item": "graphite", "amount": 9 }
+	],
+	"category": "effect",
+	"research": "illuminator"
+}

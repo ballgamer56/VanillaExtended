@@ -8,7 +8,7 @@
 	"hasPower": true,
 	"hasItems": true, 
    "flameColor": 00bfff,
-	"craftTime": 300,
+	"craftTime": 60,
 	"smeltEffect": "smeltsmoke",
 	"consumes": {
 		"power": 0.2,

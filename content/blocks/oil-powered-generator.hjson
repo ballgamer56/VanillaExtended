@@ -1,7 +1,7 @@
 {
 	"type":"BurnerGenerator",
 	"name": "Gasoline Powered Generator",
-	"description": "Generator that use gasoline (produce ussing oil in refiner) instead of coal to produce power. why is this not in the game? I don't know....",
+	"description": "Generator that use gasoline (can be produced using oil refinery) instead of coal to produce power.",
 	"size": 2,
    "itemCapacity": 10,
    "hasItems": true, 

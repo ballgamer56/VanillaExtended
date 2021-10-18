@@ -1,6 +1,6 @@
 {
 	"name": "Gas oil",
-	"description": "Combine with Heavy fuel oil to make Naptha. can be made into gasoline",
+	"description": "Combine with Heavy fuel oil to make Naptha. can be use in lamp",
 	"flammability": 3.6,
 	"explosiveness": 1.2,
     "viscosity": 0.8,

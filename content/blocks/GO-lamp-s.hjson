@@ -1,0 +1,26 @@
+{
+	"type": "BurnerGenerator",
+	"name": "Small Gas Oil Lamp",
+	"description": "Larger gas oil lamp, produce less light, use less fuel, last longer",
+	"size": 1,
+   "itemCapacity": 2
+	"hasItems": true, 
+   "minItemEfficiency": 0.2,
+   "randomlyExplode": false,
+	"itemDuration": 18000,
+	"powerProduction": 0.0001,
+	"consumes": {
+	"items": {
+			"items": [
+				{ "item": "GOB", "amount": 1 }
+			],
+			"optional": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 2 },
+		{ "item": "graphite", "amount": 1 }
+	],
+	"category": "effect",
+	"research": "illuminator"
+}

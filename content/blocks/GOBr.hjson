@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Gasoline canister factory",
+	"name": "Gas oil bottler",
 	"description": "Put Gas oil into bottle for faster transport, use and crafting",
 	"outputItem": {"item": "GOB", "amount": 1},
 	"size": 1,

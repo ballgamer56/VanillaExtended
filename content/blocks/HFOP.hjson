@@ -1,19 +1,19 @@
 {
 	"type": "GenericSmelter",
 	"name": "Heavy fuel oil processor",
-	"description": "Refine oil into Heavy fuel oil and leave left over to be process further in stage 2",
-	"liquidCapacity": 50,
+	"description": "Refine heavy fuel oil into lubricant oil",
+	"liquidCapacity": 60,
    "outputLiquid": {"liquid": "lubricant-oil", "amount": 5.0},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
-	"craftTime": 100,
+	"craftTime": 60,
 	"updateEffect": "smeltsmoke",
 	"consumes": {
 		"power": 1.7
 		"liquid": {
 			"liquid": "HFO",
-			"amount": 0.25
+			"amount": 0.1
 		}
 	},
 	"requirements": [
