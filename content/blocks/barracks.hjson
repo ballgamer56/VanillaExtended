@@ -1,0 +1,22 @@
+type: unitFactory
+name: Barracks
+description: Produces specialist units. mechs require the workshop. made by iwantmods82
+size: 3
+plans: [
+  {
+    unit: tank
+    requirements: [
+      copper/35
+      lead/25
+      silicon/40
+    ]
+    time: 450
+  }
+]
+research: tank
+requirements: [
+lead/135
+concrete/55
+silicon/230
+]
+catagory: units
