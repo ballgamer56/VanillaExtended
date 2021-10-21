@@ -1,6 +1,6 @@
 {
 	"type": "material",
-	"name": "Uranium",
+	"name": "Uranium-235",
 	"description": "More risky Thorium, Produce more Energy but harder to get a hold of.",
 	"hardness": 3,
    "radioactivity": 1,

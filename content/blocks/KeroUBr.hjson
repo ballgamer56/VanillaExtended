@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Kerosene Unbottler
+description: Unbottle a bottle of kerosene for the liquid form of kerosene
+size: 1
+liquidCapacity: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+updateEffect: smeltsmoke
+craftTime: 100
+consumes:{
+	power: 1.7
+	items: {
+		items:[
+			KeroB/1
+		]
+	}
+}
+outputLiquid:{
+	liquid: Kero
+	amount: 100.0
+	}
+requirements: [
+		copper/10
+		lead/10
+]
+category: crafting
+research: KeroBr

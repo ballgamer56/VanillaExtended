@@ -1,13 +1,12 @@
-{
-	"name": "Bullets-proof glass Wall",
-	"description": "Better than just regular glass wall",
-	"type": "Wall",
-	"health": 250,
-	"size": 2,
-	"requirements": [
-		{ "item": "glass", "amount": 25 },
-		{ "item": "lead", "amount": 5 }
-	],
-	"category": "defense",
-	"research": "proof-glass-wall-s"
-}
+name: Bullets-proof glass Wall
+description: Better than just regular glass wall
+type: Wall
+health: 250
+size: 2
+hasShadow: false
+requirements: [
+	glass/25 
+	lead/5
+	]
+category: defense
+research: proof-glass-wall-s

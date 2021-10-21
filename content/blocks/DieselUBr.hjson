@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Diesel Unbottler
+description: Unbottle a bottle of diesel for the liquid form of diesel
+size: 1
+liquidCapacity: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+updateEffect: smeltsmoke
+craftTime: 100
+consumes:{
+	power: 1.7
+	items: {
+		items:[
+			DieselB/1
+		]
+	}
+}
+outputLiquid:{
+	liquid: Diesel
+	amount: 100.0
+	}
+requirements: [
+		copper/10
+		lead/10
+]
+category: crafting
+research: DieselBr

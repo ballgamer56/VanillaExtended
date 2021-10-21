@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Gasoline Unbottler
+description: Unbottle a canister of gasoline for the liquid form of gasoline
+size: 1
+liquidCapacity: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+updateEffect: smeltsmoke
+craftTime: 100
+consumes:{
+	power: 1.7
+	items: {
+		items:[
+			gasoline-canister/1
+		]
+	}
+}
+outputLiquid:{
+	liquid: Gas
+	amount: 100.0
+	}
+requirements: [
+		copper/10
+		lead/10
+]
+category: crafting
+research: GasBr

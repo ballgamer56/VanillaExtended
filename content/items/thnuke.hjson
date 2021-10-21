@@ -1,0 +1,9 @@
+{
+	"type": "resource",
+	"name": "Nuke (Thorium)",
+	"description": "Nuclear bomb, Atomic bomb. You name it. this one is quite a tiny version of it. Made with Thorium",
+	"hardness": 0,
+   "explosiveness": 3.45,
+	"cost": 2.0,
+	"color": "555555"
+}

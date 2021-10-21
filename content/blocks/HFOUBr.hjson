@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Heavy Fuel Oil Unbottler
+description: Unbottle a bottle of heavy fuel oil for the liquid form of heavy fuel oil
+size: 1
+liquidCapacity: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+updateEffect: smeltsmoke
+craftTime: 100
+consumes:{
+	power: 1.7
+	items: {
+		items:[
+			HFOB/1
+		]
+	}
+}
+outputLiquid:{
+	liquid: HFO
+	amount: 100.0
+	}
+requirements: [
+		copper/10
+		lead/10
+]
+category: crafting
+research: HFOBr

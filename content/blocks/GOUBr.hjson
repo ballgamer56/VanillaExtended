@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: Gas Oil Unbottler
+description: Unbottle a bottle of gas oil for the liquid form of gas oil
+size: 1
+liquidCapacity: 60
+hasPower: true
+hasItems: true
+hasLiquids: true
+updateEffect: smeltsmoke
+craftTime: 100
+consumes:{
+	power: 1.7
+	items: {
+		items:[
+			GOB/1
+		]
+	}
+}
+outputLiquid:{
+	liquid: GO
+	amount: 100.0
+	}
+requirements: [
+		copper/10
+		lead/10
+]
+category: crafting
+research: GOBr

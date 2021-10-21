@@ -13,10 +13,10 @@ plans: [
     time: 450
   }
 ]
+catagory: unit
 research: tank
 requirements: [
 lead/135
 concrete/55
 silicon/230
 ]
-catagory: units

@@ -19,7 +19,7 @@
 			"speed": 3.0,
 			"status": "burning", 
 			"statusDuration": 1200,
-			"damage": 4500,
+			"damage": 6000,
 			"width": 7,
 			"height": 9,
 			"shootEffect": "shootBig",
@@ -27,8 +27,25 @@
         "hitEffect": "shootBig2",
 			"ammoMultiplier": 1,
 			"splashDamageRadius": 1000,
-			"splashDamage": 4500,
+			"splashDamage": 6000,
 			"sprite": "[#25f12f]vanilla-extended[]-nuke-bullet"
+		},
+		"[#25f12f]vanilla-extended[]-thnuke": {
+			"type": "ArtilleryBulletType",
+			"lifetime": 600,
+			"speed": 3.0,
+			"status": "burning", 
+			"statusDuration": 600,
+			"damage": 3000,
+			"width": 7,
+			"height": 9,
+			"shootEffect": "shootBig",
+			"smokeEffect": "shootBigSmoke",
+        "hitEffect": "shootBig2",
+			"ammoMultiplier": 1,
+			"splashDamageRadius": 500,
+			"splashDamage": 3000,
+			"sprite": "[#25f12f]vanilla-extended[]-thnuke-bullet"
 		}
 	},
 	"requirements": [

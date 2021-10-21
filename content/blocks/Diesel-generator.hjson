@@ -18,10 +18,10 @@
 		}
 	},
 	"requirements": [
-		{ "item": "titanium", "amount": 75 },
-		{ "item": "copper", "amount": 75 },
-		{ "item": "graphite", "amount": 100 },
-		{ "item": "silicon", "amount": 100 }
+		{ "item": "titanium", "amount": 225 },
+		{ "item": "copper", "amount": 225 },
+		{ "item": "graphite", "amount": 300 },
+		{ "item": "silicon", "amount": 300 }
 	],
 	"category": "power",
 	"research": "gasoline-turbine"

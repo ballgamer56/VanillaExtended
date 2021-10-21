@@ -19,10 +19,10 @@
 		}
 	},
 	"requirements": [
-		{ "item": "copper", "amount": 50 },
-		{ "item": "graphite", "amount": 25 },
-		{ "item": "silicon", "amount": 30 }
+		{ "item": "copper", "amount": 25 },
+		{ "item": "graphite", "amount": 10 },
+		{ "item": "silicon", "amount": 15 }
 	],
 	"category": "power",
-	"research": "steam-generator"
+	"research": "GasBr"
 }

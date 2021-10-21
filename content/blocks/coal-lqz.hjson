@@ -1,33 +1,31 @@
-{
-	"type": "GenericSmelter",
-	"name": "Coal liquidizer",
-	"description": "Turn coal into oil",
-	"liquidCapacity": 50,
-   "outputLiquid": {"liquid": "oil", "amount": 25.0},
-	"size": 2,
-	"hasPower": true,
-	"hasItems": true,
-	"craftTime": 60,
-	"updateEffect": "smeltsmoke",
-	"consumes": {
-		"power": 0.5,
-		"liquid": {
-			"liquid": "water",
-			"amount": 0.05
-		}
-		"items": {
-			"items": [
-				{"item": "coal", "amount": 1 }
+type: GenericCrafter
+name: Coal liquidizer
+description: Turn coal into oil
+liquidCapacity: 10,
+outputLiquid: {
+	liquid: oil
+	amount: 3.0
+	}
+size: 2
+hasPower: true
+hasItems: true
+hasLiquids: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+	power: 0.5
+	items: {
+		items: [
+			coal/1
 			]
 		}
-	},
-	"requirements": [
-		{ "item": "graphite", "amount": 30 },
-		{ "item": "lead", "amount": 50 },
-		{ "item": "silicon", "amount": 20 }
-	],
-	"category": "crafting",
-	"research": "water-extractor",
-	"idleSound": "respawning",
-	"idleSoundVolume": 0.5
-}
+	}
+requirements: [
+	graphite/30
+	lead/50
+	silicon/20
+	]
+category: crafting
+research: coal-centrifuge
+idleSound: respawning
+idleSoundVolume: 0.5
