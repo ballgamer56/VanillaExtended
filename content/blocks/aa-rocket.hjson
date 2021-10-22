@@ -20,7 +20,7 @@
 	"ammoTypes": {
 		"[#25f12f]vanilla-extended[]-rocket": {
 			"type": "MissileBulletType",
-			"lifetime": 600,
+			"lifetime": 60,
 			"speed": 12,
 			"status": "burning", 
 			"statusDuration": 1200,

@@ -2,7 +2,7 @@
 	"type": "GenericCrafter",
 	"name": "Nuclear bomb assembler (Thorium)",
 	"description": "Use for assembling Uranium and other materials into a nuke",
-	"outputItem": {"item": "nuke", "amount": 1},
+	"outputItem": {"item": "thnuke", "amount": 1},
 	"size": 3,
 	"itemCapacity": 200,
 	"hasPower": true,
