@@ -28,7 +28,7 @@
 			"splashDamageRadius": 100,
 			"splashDamage": 250,
         "homingRange": 25,
-        "homingPower": 1,
+        "homingPower": 0.01,
         "collidesAir": true, 
         "collides": true, 
         "keepVelocity": true,
