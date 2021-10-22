@@ -5,7 +5,7 @@
 	"health": 1200,
 	"size": 2,
 	"requirements": [
-		{ "item": "concrete", "amount": 10 }
+		{ "item": "concrete", "amount": 40 }
 	],
 	"category": "defense",
 	"research": "concrete-wall"
