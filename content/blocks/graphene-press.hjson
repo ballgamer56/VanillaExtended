@@ -13,7 +13,7 @@
 		"power": 0.7,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 1 }
+				{ "item": "graphite", "amount": 1 }
 			]
 		}
 	},
