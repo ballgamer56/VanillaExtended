@@ -1,7 +1,7 @@
 {
 	"type": "BurnerGenerator",
 	"name": "Diesel generator",
-	"description": "More heavvy duty generator",
+	"description": "More heavy duty generator",
 	"size": 3,
    "itemCapacity": 70
 	"hasItems": true, 
