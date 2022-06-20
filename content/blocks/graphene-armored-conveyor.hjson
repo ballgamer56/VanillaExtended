@@ -1,7 +1,7 @@
 {
 	"type": "ArmoredConveyor",
 	"name": "Graphene armored conveyor",
-	"description": "Better armored conveyor",
+	"description": "Armored conveyor but faster and more durable.",
    "health": 500
 	"requirements": [
 		{"item": "titanium", "amount": 1},
