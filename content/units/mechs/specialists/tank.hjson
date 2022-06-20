@@ -1,5 +1,5 @@
 name: "Tank"
-description: "An unit designed to pave your foes down."
+description: "A unit designed to pave your foes down."
 details: "Of course, there are also other war machines out there."
 speed : 0.65
 health: 450
@@ -19,7 +19,6 @@ lowAltitude: true
 omniMovement: true
 canBoost: false
 canDrown: false
-canBoost: false
 weapons: [ 
 {
 name: tank-MG
@@ -57,4 +56,4 @@ requirements: [
     silicon/2300
 ]
 }
-catagory: units
+category: units
