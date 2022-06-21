@@ -9,7 +9,7 @@
 		{ "item": "lead", "amount": 40 },
 		{ "item": "graphite", "amount": 60 },
 		{ "item": "graphene", "amount": 12 },
-		{ "item": "silicon", "amount": 60}
+		{ "item": "silicon", "amount": 60 }
 	],
 	"category": "power",
 	"research": "GA-solar-panel"
