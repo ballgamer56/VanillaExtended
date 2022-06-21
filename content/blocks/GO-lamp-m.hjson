@@ -1,7 +1,7 @@
 {
 	"type": "BurnerGenerator",
 	"name": "Gas Oil Lamp",
-	"description": "Light source that use gas oil instead of electricity",
+	"description": "Light source that uses gas oil instead of electricity.",
 	"size": 2,
    "itemCapacity": 5
 	"hasItems": true, 
