@@ -1,9 +1,9 @@
 {
 	"type": "GenericCrafter",
-	"name": "Graphene Press",
-	"description": "Work as same as graphite press but takes more power and produce graphene slower",
+	"name": "Graphene Depositer",
+	"description": "Deposits carbon from graphite on to a copper foil to produce graphene.",
 	"itemCapacity": 10,
-	"outputItem": {"item": "graphene", "amount": 1},
+	"outputItem": {"item": "graphene", "amount": 4},
 	"size": 2,
 	"hasPower": true,
 	"hasItems": true,
@@ -13,7 +13,7 @@
 		"power": 0.7,
 		"items": {
 			"items": [
-				{ "item": "coal", "amount": 1 }
+				{ "item": "graphite", "amount": 1 }
 			]
 		}
 	},
@@ -21,7 +21,8 @@
 		{ "item": "graphite", "amount": 50 },
 		{ "item": "lead", "amount": 80 },
 		{ "item": "silicon", "amount": 60 },
-		{ "item": "titanium", "amount": 50 }
+		{ "item": "titanium", "amount": 50 },
+                { "item": "copper", "amount": 10}
 	],
 	"category": "crafting",
 	"research": "multi-press",

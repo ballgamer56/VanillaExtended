@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Aviation fuel Mixer",
-	"description": "Mix Diesel and Kerosene together to create Aviation fuel",
+	"description": "Mixes Diesel and Kerosene together to create Aviation fuel.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "A1B", "amount": 2},
 	"size": 3,

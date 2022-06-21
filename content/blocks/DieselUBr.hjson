@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Diesel Unbottler
-description: Unbottle a bottle of diesel for the liquid form of diesel
+description: Unbottles a bottle of diesel for the usage of it's liquid contents.
 size: 1
 liquidCapacity: 60
 hasPower: true

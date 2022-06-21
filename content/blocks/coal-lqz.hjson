@@ -1,6 +1,7 @@
 type: GenericCrafter
-name: Coal liquidizer
-description: Turn coal into oil
+name: Coal Liquidizer
+description: Turns coal into oil.
+details: Don't ask why the oil centrifuge waste is coming out of nowhere.
 liquidCapacity: 10,
 outputLiquid: {
 	liquid: oil

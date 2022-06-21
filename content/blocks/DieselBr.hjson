@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
-	"name": "Diesel bottling",
-	"description": "Put Diesel into bottle for faster transport, use and crafting",
+	"name": "Diesel Bottler",
+	"description": "Bottles Diesel for faster transport, use and crafting.",
 	"outputItem": {"item": "DieselB", "amount": 1},
 	"size": 1,
 	"liquidCapacity": 60,
