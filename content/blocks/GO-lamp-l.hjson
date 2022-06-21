@@ -3,12 +3,12 @@
 	"name": "Large Gas Oil Lamp",
 	"description": "Larger gas oil lamp, brighter, inefficient, shorter lifespan.",
 	"size": 3,
-        "itemCapacity": 10
+"itemCapacity": 10
 	"hasItems": true, 
-        "minItemEfficiency": 0.2,
-        "randomlyExplode": false,
+"minItemEfficiency": 0.2,
+"randomlyExplode": false,
 	"itemDuration": 900,
-	"powerProduction": 0,
+	"powerProduction": 0.0001,
 	"consumes": {
 	"items": {
 		        "items": [
