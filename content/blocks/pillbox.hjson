@@ -37,6 +37,9 @@
 			"ammoMultiplier": 25,
         "homingRange": 0,
         "homingPower": 0,
+	"lightning": 8
+	"lightningRange": 3
+	"lightningDamage": 12
         "collidesAir": false, 
         "collides": true, 
         "keepVelocity": true,
