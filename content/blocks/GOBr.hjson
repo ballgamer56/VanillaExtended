@@ -1,10 +1,10 @@
 {
 	"type": "GenericSmelter",
-	"name": "Gas oil bottler",
-	"description": "Put Gas oil into bottle for faster transport, use and crafting",
+	"name": "Gas Oil Bottler",
+	"description": "Bottles Gas oil for faster transport, use and crafting.",
 	"outputItem": {"item": "GOB", "amount": 1},
 	"size": 1,
-	"liquidCapacity": 5,
+	"liquidCapacity": 60,
 	"itemCapacity": 10,
 	"hasPower": true,
 	"hasLiquids": true,

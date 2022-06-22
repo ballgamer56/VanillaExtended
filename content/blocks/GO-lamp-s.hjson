@@ -1,7 +1,7 @@
 {
 	"type": "BurnerGenerator",
 	"name": "Small Gas Oil Lamp",
-	"description": "Larger gas oil lamp, produce less light, use less fuel, last longer",
+	"description": "Smaller gas oil lamp, dimmer, efficent, longer lifespan.",
 	"size": 1,
    "itemCapacity": 2
 	"hasItems": true, 

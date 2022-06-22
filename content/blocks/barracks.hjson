@@ -13,7 +13,7 @@ plans: [
     time: 450
   }
 ]
-category: unit
+category: units
 research: tank
 requirements: [
 lead/135
