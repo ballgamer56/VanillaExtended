@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
 	"name": "Gasoline Canister Factory",
-	"description": "Fills a canister with Gasoline for use as contained form",
+	"description": "Fills a canister with Gasoline for use in contained form.",
 	"outputItem": {"item": "gasoline-canister", "amount": 1},
 	"size": 1,
 	"liquidCapacity": 60,
