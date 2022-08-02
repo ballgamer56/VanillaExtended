@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Gasoline Unbottler
-description: Unbottle a canister of gasoline for the liquid form of gasoline
+description: Unbottles a Gasoline Canister for the usage of it's liquid contents.
 size: 1
 liquidCapacity: 60
 hasPower: true
