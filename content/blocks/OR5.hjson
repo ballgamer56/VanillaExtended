@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
-	"name": "Oil refiner stage 5",
-	"description": "Refine oil into Naptha and leave left over to be process further in stage 5",
+	"name": "Oil Refiner Stage 5",
+	"description": "Refines Stage 4 left-overs into Naptha and leaves left-overs to be processed further in stage 6."
 	"liquidCapacity": 50,
 	"outputItem": {"item": "stage5", "amount": 1},
    "outputLiquid": {"liquid": "Nap", "amount": 10.0},
