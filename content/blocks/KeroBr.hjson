@@ -1,7 +1,7 @@
 {
 	type: GenericCrafter
-	name: Kerosene Unbottler
-	description: "Unbottles a bottle of kerosene for the usage of it's liquid contents.",
+	name: Kerosene Bottler
+	description: "Bottles kerosene for faster transport, use and crafting.",
 	"outputItem": {"item": "KeroB", "amount": 1},
 	"size": 1,
 	"liquidCapacity": 60,
