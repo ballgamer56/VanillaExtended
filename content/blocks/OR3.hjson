@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Oil refiner stage 3",
+	"name": "Oil Refiner Stage 3",
 	"description": "Refines Stage 2 left-overs into Diesel and leaves left-overs to be processed further in stage 4.",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "stage3", "amount": 1},
