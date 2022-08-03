@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Heavy Fuel Oil bottling",
+	"name": "Heavy Fuel Oil Bottler",
 	"description": "Botttles Heavy fuel oil for faster transport, use and crafting.",
 	"outputItem": {"item": "HFOB", "amount": 1},
 	"size": 1,
