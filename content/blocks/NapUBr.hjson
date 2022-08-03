@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Naptha Unbottler
-description: Unbottle a bottle of naptha for the liquid form of naptha
+description: Unbottles a bottle of naptha for the usage of it's liquid contents.
 size: 1
 liquidCapacity: 60
 hasPower: true
