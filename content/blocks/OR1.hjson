@@ -1,6 +1,6 @@
 type: GenericSmelter
-name: "Oil refiner stage 1"
-description: Refine oil into Heavy fuel oil and leave left over to be process further in stage 2
+name: "Oil Refiner Stage 1"
+description: Unbottles a bottle of diesel for the usage of it's liquid contents.
 liquidCapacity: 70
 outputItem: {
 	item: stage1
