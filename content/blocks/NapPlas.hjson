@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
-	"name": "Better Plastanium compressor",
-	"description": "combine Naphtha and Titanium together into Plastanium,
+	"name": "Upgraded Plastanium Compressor",
+	"description": "Compresses Naphtha and Titanium together into Plastanium at a higher efficiency.",
 	"liquidCapacity": 60,
 	"outputItem": {"item": "plastanium", "amount": 1},
 	"size": 2,
