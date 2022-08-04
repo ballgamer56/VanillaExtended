@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
-	"name": "Uranium drill",
-	"description": "drill Uranium from deep underground anywhere! \n*efficiency will not increase if place on Uranium ore",
+	"name": "Uranium Drill",
+	"description": "Drills Uranium from deep underground independent of location.\n\n[stat]*Efficiency will not increase if placed on Uranium ore.[]",
 	"itemCapacity": 10,
 	"outputItem": {"item": "uranium-ore", "amount": 1},
 	"size": 2,
