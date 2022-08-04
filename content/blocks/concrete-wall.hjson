@@ -1,6 +1,6 @@
 {
 	"name": "Concrete Wall",
-	"description": "Cheaper than copper yet almost as strong as it",
+	"description": "Wall made of cheap concrete, almost as strong as copper. 1x1.",
 	"type": "Wall",
 	"health": 300,
 	"size": 1,
