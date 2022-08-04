@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Gas Oil Unbottler
-description: Unbottle a bottle of gas oil for the liquid form of gas oil
+description: Unbottles a bottle of gas oil for the usage of it's liquid contents.
 size: 1
 liquidCapacity: 60
 hasPower: true

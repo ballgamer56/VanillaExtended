@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
-	"name": "Naphtha bottling",
-	"description": "Put Naphtha into bottle for faster transport, use and crafting",
+	"name": "Naphtha Bottler",
+	"description": "Bottles Naphtha for faster transport, use and crafting.",
 	"outputItem": {"item": "NapB", "amount": 1},
 	"size": 1,
 	"liquidCapacity": 60,

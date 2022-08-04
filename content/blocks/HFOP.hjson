@@ -1,7 +1,7 @@
 {
 	"type": "GenericSmelter",
-	"name": "Heavy fuel oil processor",
-	"description": "Refine heavy fuel oil into lubricant oil",
+	"name": "Heavy Fuel Oil Processor",
+	"description": "Refines Heavy fuel oil into Lubricant oil.",
 	"liquidCapacity": 60,
    "outputLiquid": {"liquid": "lubricant-oil", "amount": 5.0},
 	"size": 2,

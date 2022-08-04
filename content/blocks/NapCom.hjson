@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Naphtha Mixer",
-	"description": "Mix Heavy fuel oil and Gas oil together to create Naphtha",
+	"description": "Mixes Heavy fuel oil and Gas oil together to create Naphtha.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "NapB", "amount": 2},
 	"size": 3,

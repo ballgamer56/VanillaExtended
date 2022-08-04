@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Heavy Fuel Oil Unbottler
-description: Unbottle a bottle of heavy fuel oil for the liquid form of heavy fuel oil
+description: Unbottles bottle of heavy fuel oil for the usage of it's liquid contents.
 size: 1
 liquidCapacity: 60
 hasPower: true

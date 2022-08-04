@@ -1,7 +1,7 @@
 {
 	"type": "ItemTurret",
-	"name": "Rocket AA turret",
-	"description": "Anti-Air turret that shoot rockets instead of bullets",
+	"name": "Rocket AA Turret",
+	"description": "Anti-Air turret that shoots rockets instead of bullets.",
 	"health": 250,
 	"size": 2,
 	"shots": 5,

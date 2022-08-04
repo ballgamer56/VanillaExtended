@@ -1,6 +1,6 @@
 type: GenericSmelter
-name: "Oil refiner stage 1"
-description: Refine oil into Heavy fuel oil and leave left over to be process further in stage 2
+name: "Oil Refiner Stage 1"
+"description": "Refines Crude oil into Heavy fuel oil and leaves left-overs to be processed further in stage 2.",
 liquidCapacity: 70
 outputItem: {
 	item: stage1

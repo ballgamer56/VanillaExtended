@@ -1,6 +1,6 @@
 {
 	"name": "Better drill",
-	"description": "Low cost drill, required Lubricant oil to run.",
+	"description": "Low cost drill, requires Lubricant oil to run.",
 "liquidCapacity":120,
 	"type": "Drill",
 	"size": 2,

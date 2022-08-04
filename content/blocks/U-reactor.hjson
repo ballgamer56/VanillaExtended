@@ -1,7 +1,7 @@
 {
 	"type": "NuclearReactor",
-	"name": "Uranium reactor",
-	"description": "Reactor powered by Uranium-235. cheaper to build (since you don't need the ore itself to build like Thorium reactor) and produce more energy than impact reactor, and only use water instead of cryofluid",
+	"name": "Uranium Reactor",
+	"description": "Reactor powered with Uranium-235.\nCheaper to build, (since you don't need the ore itself) and produces A LOT more energy than it's thorium counterpart, and only uses water (but in high quantities) instead of cryofluid. Only trade-off is that it takes up 2.77x the surface area.",
 	"size": 5,
 	"health": 5000,
    "itemCapacity": 5,

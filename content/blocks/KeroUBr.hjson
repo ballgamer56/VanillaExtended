@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Kerosene Unbottler
-description: Unbottle a bottle of kerosene for the liquid form of kerosene
+description: Unbottles a bottle of kerosene for the usage of it's liquid contents.
 size: 1
 liquidCapacity: 60
 hasPower: true

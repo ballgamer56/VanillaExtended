@@ -1,9 +1,9 @@
 {
 	"type": "GenericSmelter",
-	"name": "Oil refiner stage 6",
-	"description": "Refine oil into Gasoline and leave left over to be process further in stage 5",
+	"name": "Oil Refiner Stage 6",
+	"description": "Refines Stage 5 left-overs into Gasoline and LPG."
 	"liquidCapacity": 50,
-	"outputItem": {"item": "stage6", "amount": 1},
+	"outputItem": {"item": "LPG", "amount": 1},
    "outputLiquid": {"liquid": "Gas", "amount": 10.0},
 	"size": 2,
 	"hasPower": true,

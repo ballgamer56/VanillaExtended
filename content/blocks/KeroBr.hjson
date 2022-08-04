@@ -1,7 +1,7 @@
 {
-	"type": "GenericSmelter",
-	"name": "Kerosene bottling",
-	"description": "Put Kerosene into bottle for faster transport, use and crafting",
+	type: GenericCrafter
+	name: Kerosene Bottler
+	description: "Bottles kerosene for faster transport, use and crafting.",
 	"outputItem": {"item": "KeroB", "amount": 1},
 	"size": 1,
 	"liquidCapacity": 60,

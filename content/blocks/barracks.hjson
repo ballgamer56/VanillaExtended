@@ -1,6 +1,6 @@
 type: unitFactory
 name: Barracks
-description: Produces specialist units. mechs require the workshop. made by iwantmods82
+description: Produces specialist units. Mechs require the workshop.\n\nmade by iwantmods82
 size: 3
 plans: [
   {
