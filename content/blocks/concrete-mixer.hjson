@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
-	"name": "Concrete mixer.",
-	"description": "create concrete using only sand and water!",
+	"name": "Concrete Mixer.",
+	"description": "Mixes aggregates (sand) and water to make cement, then cures it to make concrete.",
 	"itemCapacity": 10,
 	"outputItem": {"item": "concrete", "amount": 1},
 	"size": 3,
