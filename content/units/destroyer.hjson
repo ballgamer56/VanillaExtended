@@ -1,0 +1,46 @@
+type: flying
+name: destroyer
+displayName: destroyer
+description: an massive fighter for eradicating pests.
+details: pinnicle of technology. fires melting missiles. appearantly it can blast through plastitanium walls via piercing missiles
+health: 2850
+size: 8
+speed: 1.5
+flying: true
+range: 240
+maxRange: 400
+mineTier: -1
+mineSpeed: 2.35
+itemCapacity: 130
+weapons: [ 
+{
+name: healing-shotgun
+reload: 65
+alternate: true
+ejectEffect: casing2
+top: false
+shootSound: bang
+x: 1.5
+y: 1.45
+rotate: true
+bullet: {
+type: MissileBulletType
+damage: 95
+speed: 2
+drag: -0.0015
+homingPower: 80
+homingRange: 30
+frontColor: eeb393
+backColor: a97567
+pierce: true
+pierceCap: 35
+status: melting
+statusDuration: 360
+width: 5
+height: 8
+lifetime: 400
+knockback: 0
+hitSound: bang
+}
+}
+]
