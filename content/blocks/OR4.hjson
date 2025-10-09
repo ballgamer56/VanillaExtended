@@ -1,10 +1,10 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Oil Refiner Stage 4",
 	"description": "Refines Stage 3 left-overs into Kerosene and leaves left-overs to be processed further in stage 5.",
 	"liquidCapacity": 50,
 	"outputItem": {"item": "stage4", "amount": 1},
-   "outputLiquid": {"liquid": "Kero", "amount": 10.0},
+   "outputLiquid": {"liquid": "Kero", "amount": 0.1},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,

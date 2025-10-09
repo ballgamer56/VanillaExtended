@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Gasoline Canister Factory",
 	"description": "Fills a canister with Gasoline for use in contained form.",
 	"outputItem": {"item": "gasoline-canister", "amount": 1},

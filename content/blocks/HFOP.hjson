@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Heavy Fuel Oil Processor",
 	"description": "Refines Heavy fuel oil into Lubricant oil.",
 	"liquidCapacity": 60,

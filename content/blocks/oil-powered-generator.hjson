@@ -1,5 +1,5 @@
 {
-	"type":"BurnerGenerator",
+	"type":"ConsumeGenerator",
 	"name": "Gasoline Powered Generator",
 	"description": "Generator that use gasoline (can be produced using oil refinery) instead of coal to produce power.",
 	"size": 2,
@@ -15,7 +15,7 @@
 			"items": [
 				{ "item": "gasoline-canister", "amount": 1 }
 			],
-			"optional": true
+			"optional": false
 		}
 	},
 	"requirements": [

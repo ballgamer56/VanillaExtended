@@ -1,9 +1,9 @@
 {
-	"type": "BurnerGenerator",
+	"type": "ConsumeGenerator",
 	"name": "Gas Oil Lamp",
 	"description": "Light source that uses gas oil instead of electricity.",
 	"size": 2,
-   "itemCapacity": 5
+   "itemCapacity": 5,
 	"hasItems": true, 
    "minItemEfficiency": 0.2,
    "randomlyExplode": false,
@@ -14,7 +14,7 @@
 			"items": [
 				{ "item": "GOB", "amount": 1 }
 			],
-			"optional": true
+			"optional": false
 		}
 	},
 	"requirements": [

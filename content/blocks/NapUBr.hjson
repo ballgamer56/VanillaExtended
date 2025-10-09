@@ -18,7 +18,7 @@ consumes:{
 }
 outputLiquid:{
 	liquid: Nap
-	amount: 100.0
+	amount: 1.0
 	}
 requirements: [
 		copper/10

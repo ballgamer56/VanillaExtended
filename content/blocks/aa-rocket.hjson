@@ -4,11 +4,10 @@
 	"description": "Anti-Air turret that shoots rockets instead of bullets.",
 	"health": 250,
 	"size": 2,
-	"shots": 5,
 	"recoil": 3,
 	"alternate": true,
 	"itemCapacity": 5,
-	"reloadTime": 20,
+	"reload": 20,
 	"range": 250,
 	"shootSound" : "rocket",
 	"inaccuracy": 5,
@@ -18,7 +17,7 @@
 	"targetAir": true,
    "ammoUseEffect": "none",
 	"ammoTypes": {
-		"[#25f12f]vanilla-extended[]-rocket": {
+		"vanilla-extended-rocket": {
 			"type": "MissileBulletType",
 			"lifetime": 60,
 			"speed": 12,
@@ -38,7 +37,7 @@
         "collidesGround": false, 
         "collides": true, 
         "keepVelocity": true,
-        "sprite": "[#25f12f]vanilla-extended[]-aa"
+        "sprite": "vanilla-extended-aa"
 		}
 	},
 	"requirements": [

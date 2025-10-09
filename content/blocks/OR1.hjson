@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: "Oil Refiner Stage 1"
 "description": "Refines Crude oil into Heavy fuel oil and leaves left-overs to be processed further in stage 2.",
 liquidCapacity: 70
@@ -8,7 +8,7 @@ outputItem: {
 	}
 outputLiquid: {
 	liquid: HFO
-	amount: 10.0
+	amount: 0.1
 	}
 size: 2
 hasPower: true

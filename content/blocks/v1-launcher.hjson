@@ -5,7 +5,7 @@
 	"health": 250,
 	"size": 2,
 	"itemCapacity": 5,
-	"reloadTime": 175,
+	"reload": 175,
 	"range": 2500,
 	"shootSound" : "v1",
 	"inaccuracy": 0,
@@ -13,7 +13,7 @@
 	"rotateSpeed": 1.5,
    "ammoUseEffect": "none",
 	"ammoTypes": {
-		"[#25f12f]vanilla-extended[]-v1-item": {
+		"vanilla-extended-v1-item": {
 			"type": "MissileBulletType",
 			"lifetime": 600,
 			"speed": 7.5,
@@ -32,7 +32,7 @@
         "collidesAir": true, 
         "collides": true, 
         "keepVelocity": true,
-			"sprite": "[#25f12f]vanilla-extended[]-v1"
+			"sprite": "vanilla-extended-v1"
 		}
 	},
 	"requirements": [

@@ -1,12 +1,12 @@
 {
-	"type": "BurnerGenerator",
+	"type": "ConsumeGenerator",
 	"name": "Gasoline Turbine",
 	"description": "Much more efficient gasoline-powered generator",
 	"size": 2,
-   "itemCapacity": 70
+    "itemCapacity": 70,
 	"hasItems": true, 
-   "minItemEfficiency": 0.2,
-   "randomlyExplode": false,
+    "minItemEfficiency": 0.2,
+    "randomlyExplode": false,
 	"itemDuration": 600,
 	"powerProduction": 15,
 	"consumes": {
@@ -14,7 +14,7 @@
 			"items": [
 				{ "item": "gasoline-canister", "amount": 7 }
 			],
-			"optional": true
+			"optional": false
 		}
 	},
 	"requirements": [

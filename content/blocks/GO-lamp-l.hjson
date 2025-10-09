@@ -1,9 +1,9 @@
 {
-	"type": "BurnerGenerator",
+	"type": "ConsumeGenerator",
 	"name": "Large Gas Oil Lamp",
 	"description": "Larger gas oil lamp, brighter, inefficient, shorter lifespan.",
 	"size": 3,
-"itemCapacity": 10
+"itemCapacity": 10,
 	"hasItems": true, 
 "minItemEfficiency": 0.2,
 "randomlyExplode": false,
@@ -14,7 +14,7 @@
 		        "items": [
 				{ "item": "GOB", "amount": 1 }
 			],
-			"optional": true
+			"optional": false
 		}
 	},
 	"requirements": [

@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Oil refiner stage 7",
 	"description": "Refine LPG into LPG and leave left over to be process further in stage 5, redundant.",
 	"outputItem": {"item": "LPG", "amount": 1},

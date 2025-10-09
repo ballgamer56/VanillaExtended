@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Glass smelter.",
 	"description": "Kiln but for glass",
 	"itemCapacity": 10,

@@ -1,12 +1,12 @@
 {
-	"type": "BurnerGenerator",
+	"type": "ConsumeGenerator",
 	"name": "Diesel Generator",
 	"description": "More heavy duty generator",
 	"size": 3,
-   "itemCapacity": 70
+    "itemCapacity": 70,
 	"hasItems": true, 
-   "minItemEfficiency": 0.2,
-   "randomlyExplode": false,
+    "minItemEfficiency": 0.2,
+    "randomlyExplode": false,
 	"itemDuration": 1000,
 	"powerProduction": 30,
 	"consumes": {
@@ -14,7 +14,7 @@
 			"items": [
 				{ "item": "DieselB", "amount": 1 }
 			],
-			"optional": true
+			"optional": false
 		}
 	},
 	"requirements": [

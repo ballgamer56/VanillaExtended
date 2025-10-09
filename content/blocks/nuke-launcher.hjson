@@ -5,7 +5,7 @@
 	"health": 250,
 	"size": 3,
 	"itemCapacity": 5,
-	"reloadTime": 1500,
+	"reload": 1500,
 	"range": 1500,
 	"shootSound" : "nuke",
 	"ammoUseEffect": "casing4",
@@ -13,7 +13,7 @@
 	"rotateSpeed": 0.05,
 	"targetAir": "false",
 	"ammoTypes": {
-		"[#25f12f]vanilla-extended[]-nuke": {
+		"vanilla-extended-nuke": {
 			"type": "ArtilleryBulletType",
 			"lifetime": 600,
 			"speed": 3.0,
@@ -28,9 +28,9 @@
 			"ammoMultiplier": 1,
 			"splashDamageRadius": 1000,
 			"splashDamage": 6000,
-			"sprite": "[#25f12f]vanilla-extended[]-nuke-bullet"
+			"sprite": "vanilla-extended-nuke-bullet"
 		},
-		"[#25f12f]vanilla-extended[]-thnuke": {
+		"vanilla-extended-thnuke": {
 			"type": "ArtilleryBulletType",
 			"lifetime": 600,
 			"speed": 3.0,
@@ -45,7 +45,7 @@
 			"ammoMultiplier": 1,
 			"splashDamageRadius": 500,
 			"splashDamage": 3000,
-			"sprite": "[#25f12f]vanilla-extended[]-thnuke-bullet"
+			"sprite": "vanilla-extended-thnuke-bullet"
 		}
 	},
 	"requirements": [

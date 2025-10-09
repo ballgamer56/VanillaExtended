@@ -5,7 +5,7 @@ details: Don't ask why the oil centrifuge waste is coming out of nowhere.
 liquidCapacity: 10,
 outputLiquid: {
 	liquid: oil
-	amount: 3.0
+	amount: 0.1
 	}
 size: 2
 hasPower: true

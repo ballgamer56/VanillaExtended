@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Gas Oil Bottler",
 	"description": "Bottles Gas oil for faster transport, use and crafting.",
 	"outputItem": {"item": "GOB", "amount": 1},

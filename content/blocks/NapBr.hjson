@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Naphtha Bottler",
 	"description": "Bottles Naphtha for faster transport, use and crafting.",
 	"outputItem": {"item": "NapB", "amount": 1},

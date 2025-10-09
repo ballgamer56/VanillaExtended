@@ -1,5 +1,5 @@
 {
-	"type": "GenericSmelter",
+	"type": "GenericCrafter",
 	"name": "Diesel Bottler",
 	"description": "Bottles Diesel for faster transport, use and crafting.",
 	"outputItem": {"item": "DieselB", "amount": 1},

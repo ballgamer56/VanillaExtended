@@ -1,9 +1,9 @@
 {
-	"type": "BurnerGenerator",
+	"type": "ConsumeGenerator",
 	"name": "Small Gas Oil Lamp",
 	"description": "Smaller gas oil lamp, dimmer, efficent, longer lifespan.",
 	"size": 1,
-   "itemCapacity": 2
+   "itemCapacity": 2,
 	"hasItems": true, 
    "minItemEfficiency": 0.2,
    "randomlyExplode": false,
@@ -14,7 +14,7 @@
 			"items": [
 				{ "item": "GOB", "amount": 1 }
 			],
-			"optional": true
+			"optional": false
 		}
 	},
 	"requirements": [
