@@ -7,7 +7,7 @@
    "hasItems": true, 
    "randomlyExplode": false,
    "minItemEfficiency": 0.2,
-	"itemDuration": 120,
+	"itemDuration": 7200,
 	"powerProduction": 5,
 	"health": 100,
 	"consumes": {

@@ -7,7 +7,7 @@
 	"hasItems": true, 
     "minItemEfficiency": 0.2,
     "randomlyExplode": false,
-	"itemDuration": 600,
+	"itemDuration": 36000,
 	"powerProduction": 15,
 	"consumes": {
 	"items": {

@@ -3,7 +3,7 @@
 	"name": "Heavy Fuel Oil Processor",
 	"description": "Refines Heavy fuel oil into Lubricant oil.",
 	"liquidCapacity": 60,
-   "outputLiquid": {"liquid": "lubricant-oil", "amount": 5.0},
+   "outputLiquid": {"liquid": "lubricant-oil", "amount": 0.1},
 	"size": 2,
 	"hasPower": true,
 	"hasLiquids": true,
